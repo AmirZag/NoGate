@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Afc::MainWindow</class>
+ <widget class="QMainWindow" name="Afc::MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Elin Card Reader</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="lblTransaction">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sahel Black FD</family>
+      <pointsize>45</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;Sahel Black FD&quot;;
+font-size: 45pt;</string>
+    </property>
+    <property name="text">
+     <string>لطفا بلیت ارائه دهید</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTransactionShadow">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>208</y>
+      <width>800</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sahel Black FD</family>
+      <pointsize>45</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;Sahel Black FD&quot;;
+font-size: 45pt;
+color:rgba(90,90,90,100);</string>
+    </property>
+    <property name="text">
+     <string>لطفا بلیت ارائه دهید</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignHCenter|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblLogo1">
+    <property name="geometry">
+     <rect>
+      <x>86</x>
+      <y>24</y>
+      <width>57</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;Sahel Black FD&quot;;
+font-size: 18pt;</string>
+    </property>
+    <property name="text">
+     <string>مپرا</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>-4</y>
+      <width>69</width>
+      <height>85</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/images/logo_mapra.png);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblLogo2">
+    <property name="geometry">
+     <rect>
+      <x>591</x>
+      <y>24</y>
+      <width>129</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;Sahel Black FD&quot;;
+font-size: 18pt;</string>
+    </property>
+    <property name="text">
+     <string>مترو شیراز</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>724</x>
+      <y>9</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>64</width>
+      <height>64</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/images/logo_metro.png);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblTime">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>440</y>
+      <width>290</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sahel Black FD</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/images/banner.png);
+image-position:bottom;
+font-family: &quot;Sahel Black FD&quot;;
+font-size: 20pt;
+</string>
+    </property>
+    <property name="text">
+     <string>000/00/00 | 00:00:00</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblLeft">
+    <property name="geometry">
+     <rect>
+      <x>566</x>
+      <y>418</y>
+      <width>225</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Liberation Serif Regular</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:  &quot;Liberation Serif Regular&quot;;
+font-size: 18pt;</string>
+    </property>
+    <property name="text">
+     <string>000-0-0000</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblRight">
+    <property name="geometry">
+     <rect>
+      <x>566</x>
+      <y>444</y>
+      <width>225</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Liberation Serif Regular</family>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:  &quot;Liberation Serif Regular&quot;;
+font-size: 18pt;</string>
+    </property>
+    <property name="text">
+     <string>000-0-0000</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnPanel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>436</y>
+      <width>141</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sahel Black FD</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: transparent;
+font-family: &quot;Sahel Black FD&quot;;
+font-size: 22pt;
+border: 0;
+outline: 0;</string>
+    </property>
+    <property name="text">
+     <string>تنظیمات</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Resources/res.qrc">
+      <normaloff>:/images/icon_settings.png</normaloff>:/images/icon_settings.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Resources/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

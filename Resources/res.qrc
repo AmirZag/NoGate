@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Fonts/Sahel-FD.ttf</file>
+        <file>images/banner.png</file>
+        <file>images/logo_elin.png</file>
+        <file>images/logo_metro.png</file>
+        <file>Fonts/Sahel-Black-FD.ttf</file>
+        <file>images/logo_mapra.png</file>
+        <file>images/icon_settings.png</file>
+    </qresource>
+</RCC>
